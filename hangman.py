@@ -1,7 +1,7 @@
 import emoji
 import random
 
-words = ['kacha', 'dragon', 'dog', 'cat', 'dinosaur', 'tank', 'rafał', 'kuba', 'roses', 'predator', 'pyton']
+words = ['kacha', 'dragon', 'dog', 'cat', 'dinosaur', 'tank', 'rafał', 'roses', 'predator', 'pyton']
 hangman = random.choice(words)
 print("Welcome")
 password = list(len(hangman) * "-")
